@@ -1,0 +1,58 @@
+.contact {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.contact:hover {
+    transform: scale(1.05); /* Enlarge the "Contact" section on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a stronger box shadow on hover */
+}
+
+.contact h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+
+.contact h2:hover {
+    color: #ff7f00; /* Change the title color on hover */
+}
+
+.contact p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: color 0.3s;
+}
+
+.contact p:hover {
+    color: #333; /* Change the paragraph color on hover */
+}
+
+.contact ul {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-left: 20px;
+}
+
+.contact li {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #ff7f00;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    color: #333; /* Change link color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+}

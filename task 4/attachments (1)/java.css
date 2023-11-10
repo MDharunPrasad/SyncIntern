@@ -1,0 +1,61 @@
+.course {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding: 20px;
+
+
+}
+
+.course:hover {
+    transform: scale(1.05); /* Enlarge the course section on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a stronger box shadow on hover */
+}
+
+.course img {
+    max-width: 100%;
+}
+
+.course h3 {
+    color: #333;
+    font-size: 20px;
+    margin-top: 10px;
+    transition: color 0.3s;
+}
+
+.course h3:hover {
+    color: #ff7f00; /* Change the course title color on hover */
+}
+
+.course p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.4;
+    transition: color 0.3s;
+}
+
+.course p:hover {
+    color: #333; /* Change the course description color on hover */
+}
+
+.course a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff7f00;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.course a:hover {
+    background-color: #333; /* Change button background color on hover */
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
